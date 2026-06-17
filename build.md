@@ -9,8 +9,7 @@ This project includes two build flows:
 ## 1. Terminal Edition (CLI)
 
 ```bash
-cd /home/ali/LAB-PF-FINAL/terminal
-
+cd terminal
 g++ -std=c++17 main.cpp -o student_manager
 ./student_manager
 ```
@@ -29,7 +28,7 @@ sudo apt install cmake g++ qt6-base-dev qt6-charts-dev
 ### Configure and build
 
 ```bash
-cd /home/ali/LAB-PF-FINAL/gui
+cd gui
 mkdir -p build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
@@ -51,14 +50,12 @@ This project includes a packaging folder and `build_deb.sh` script to create a `
 ### Build package using script
 
 ```bash
-cd /home/ali/LAB-PF-FINAL
 ./build_deb.sh
 ```
 
 ### Manual packaging steps
 
 ```bash
-cd /home/ali/LAB-PF-FINAL
 mkdir -p packaging/usr/bin
 mkdir -p packaging/usr/share/applications
 mkdir -p packaging/usr/share/pixmaps
