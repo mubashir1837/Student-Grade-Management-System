@@ -1,0 +1,249 @@
+/* Stunning Light Gradient Glassmorphism stylesheet for Qt6 Application */
+
+/* Base font and color settings */
+QWidget {
+    color: #0f172a;
+    font-family: 'Outfit', 'Inter', 'Ubuntu', 'Segoe UI', sans-serif;
+    font-size: 13px;
+}
+
+/* Main Window Backdrop with Soft Celestial Light Gradient */
+QMainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, 
+        stop:0 #f8fafc, 
+        stop:0.4 #f1f5f9, 
+        stop:0.8 #e2e8f0, 
+        stop:1 #cbd5e1);
+}
+
+/* Dialog Box Backdrop */
+QDialog {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, 
+        stop:0 #ffffff, 
+        stop:1 #f8fafc);
+}
+
+/* Headers & Titles */
+QLabel#titleLabel {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #0284c7;
+    padding: 5px 0px;
+    background: transparent;
+}
+
+QLabel#subtitleLabel {
+    font-size: 12px;
+    color: #64748b;
+    background: transparent;
+}
+
+QLabel {
+    background: transparent;
+}
+
+/* Glassmorphism Containers (Cards / Group Boxes) */
+QGroupBox {
+    background-color: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    border-radius: 14px;
+    margin-top: 20px;
+    padding: 15px;
+    font-weight: bold;
+    color: #0284c7;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 15px;
+    padding: 0 8px;
+    background-color: transparent;
+}
+
+/* Tab Widget Navigation & Glass Pane */
+QTabWidget::pane {
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.45);
+    padding: 15px;
+}
+
+QTabBar::tab {
+    background-color: rgba(0, 0, 0, 0.04);
+    color: #64748b;
+    padding: 10px 22px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 4px;
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    border-bottom: none;
+}
+
+QTabBar::tab:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    color: #0f172a;
+}
+
+QTabBar::tab:selected {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #0284c7;
+    border-bottom: 2px solid #0284c7;
+    font-weight: bold;
+}
+
+/* Text Inputs / Spin Boxes (Frosty inputs) */
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #0f172a;
+    selection-background-color: rgba(2, 132, 199, 0.2);
+}
+
+QLineEdit:focus {
+    border: 1.5px solid #0284c7;
+    background-color: #ffffff;
+}
+
+QSpinBox, QDoubleSpinBox {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 8px;
+    color: #0f172a;
+}
+
+QSpinBox:focus, QDoubleSpinBox:focus {
+    border: 1.5px solid #0284c7;
+    background-color: #ffffff;
+}
+
+/* Glass Table View */
+QTableWidget {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #cbd5e1;
+    gridline-color: #e2e8f0;
+    border-radius: 10px;
+    color: #0f172a;
+    selection-background-color: rgba(2, 132, 199, 0.15);
+    selection-color: #0f172a;
+}
+
+QTableWidget::item {
+    padding: 10px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+QTableWidget::item:selected {
+    background-color: rgba(2, 132, 199, 0.15);
+    color: #0284c7;
+    font-weight: bold;
+}
+
+QHeaderView::section {
+    background-color: #f1f5f9;
+    color: #475569;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+    border-bottom: 1px solid #cbd5e1;
+}
+
+QHeaderView {
+    background-color: transparent;
+}
+
+/* Buttons with Soft Gradients */
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, 
+        stop:0 #0284c7, 
+        stop:1 #0369a1);
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    min-height: 22px;
+}
+
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, 
+        stop:0 #38bdf8, 
+        stop:1 #0284c7);
+}
+
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, 
+        stop:0 #0369a1, 
+        stop:1 #075985);
+}
+
+/* Secondary Button: Light grey frost button */
+QPushButton#secondaryButton {
+    background-color: rgba(15, 23, 42, 0.05);
+    color: #0f172a;
+    border: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+QPushButton#secondaryButton:hover {
+    background-color: rgba(15, 23, 42, 0.1);
+    border: 1px solid rgba(15, 23, 42, 0.2);
+}
+
+QPushButton#secondaryButton:pressed {
+    background-color: rgba(15, 23, 42, 0.03);
+}
+
+/* Danger Button: Red gradient */
+QPushButton#dangerButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, 
+        stop:0 #ef4444, 
+        stop:1 #dc2626);
+    color: #ffffff;
+}
+
+QPushButton#dangerButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, 
+        stop:0 #f87171, 
+        stop:1 #ef4444);
+}
+
+QPushButton#dangerButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, 
+        stop:0 #b91c1c, 
+        stop:1 #991b1b);
+}
+
+/* Scroll Bars (Light Minimalistic Scrollers) */
+QScrollBar:vertical {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 8px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: rgba(0, 0, 0, 0.15);
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
+
+/* Status Bar */
+QStatusBar {
+    background-color: rgba(0, 0, 0, 0.03);
+    color: #475569;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}

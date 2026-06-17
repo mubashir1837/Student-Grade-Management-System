@@ -1,0 +1,42 @@
+# Build Artifacts
+/gui/build/
+/terminal/student_manager
+/packaging/usr/bin/
+*.deb
+
+# Database and Backups (Keep clean database templates if needed, but ignore runtime database)
+students_db.txt
+
+# Object files & executables
+*.o
+*.obj
+*.a
+*.la
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.user.*
+*.sln
+*.vcproj
+*.vcxproj
+*.filters
+.DS_Store

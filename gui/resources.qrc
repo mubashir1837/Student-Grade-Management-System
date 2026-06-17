@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.qss</file>
+        <file>light_style.qss</file>
+    </qresource>
+</RCC>

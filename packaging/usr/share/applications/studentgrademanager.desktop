@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Student Grade Manager
+Comment=Manage student grades and view statistics with analytics charts
+Exec=studentgrademanager
+Icon=studentgrademanager
+Terminal=false
+Categories=Education;Science;Qt;
+Keywords=Student;Grade;Manager;Average;Calculator;Marks;
+StartupNotify=true

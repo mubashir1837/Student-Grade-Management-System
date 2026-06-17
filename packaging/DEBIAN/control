@@ -1,0 +1,12 @@
+Package: studentgrademanager
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Ali & Group <ali@example.com>
+Depends: libc6, libqt6core6t64, libqt6gui6t64, libqt6widgets6t64, libqt6charts6
+Description: Student Grade Management System
+ A premium Qt6 C++ application designed for Programming Fundamentals.
+ Features include grade calculation, subject averages, dynamic dark theme
+ UI, CSV database loading/saving, data filtering, and interactive Qt Charts
+ detailing class metrics and grade distribution.
