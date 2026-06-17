@@ -130,7 +130,7 @@ int main() {
 
 void printHeader() {
     cout << CYAN << "=====================================================================" << RESET << endl;
-    cout << CYAN << " **********           LAB PROJECT: SEMESTER - I            **********" << RESET << endl;
+    cout << CYAN << "          STUDENT GRADE MANAGEMENT SYSTEM (Terminal Edition)" << RESET << endl;
     cout << CYAN << "=====================================================================" << RESET << endl;
 }
 
