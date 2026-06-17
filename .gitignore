@@ -6,6 +6,8 @@
 
 # Database and Backups (Keep clean database templates if needed, but ignore runtime database)
 students_db.txt
+LAB_DOCUMENTATION.md
+PRESENTATION_SCRIPT.md
 
 # Object files & executables
 *.o

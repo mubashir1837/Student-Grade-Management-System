@@ -32,7 +32,7 @@ Student-Grade-Management-System/
 
 ---
 
-## ⚡ How to Build and Run
+## How to Build and Run
 
 ### 1. Terminal Edition (CLI)
 Navigate to the `terminal` directory:
