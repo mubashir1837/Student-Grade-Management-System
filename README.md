@@ -1,13 +1,13 @@
 # Student Grade Management System
-A premium C++ group project designed for the **Programming Fundamentals (Semester I)** lab exam and presentation. This project features two fully-functional versions of the application:
+A premium C++ Student Grade Management System. This project features two fully-functional versions of the application:
 1. **Terminal Edition (CLI):** Focused on core programming concepts (arrays, files, structs, loops, conditions) with a stylized colorful console.
 2. **Analytics Dashboard (GUI):** Built on Qt6 Widgets and Qt Charts, featuring a gorgeous dark mode, live previews, and interactive visual data reporting.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```text
-LAB-PF-FINAL/
+Student-Grade-Management-System/
 ├── terminal/
 │   ├── main.cpp         <-- Complete CLI implementation (ideal for printing hard copies)
 │   └── student_manager  <-- Compiled CLI executable
@@ -79,33 +79,10 @@ Once installed, the application will appear in your Mint application menu under 
 
 ---
 
-## 🛠️ C++ Concepts Implemented
-To satisfy the grading criteria of **Programming Fundamentals**, both editions implement:
+## C++ Concepts Implemented
+To satisfy the criteria of **Programming Fundamentals**, both editions implement:
 - **Structs (`struct Student`):** Grouping related student variables (name, roll, subject marks, average, grade).
 - **Arrays & Vectors (`float marks[5]`, `vector<Student>`):** Storing scores in 5 specific semester subjects and dynamically tracking multiple student entries.
 - **File I/O (`ifstream` / `ofstream`):** Persisting data to `students_db.txt`. Both CLI and GUI editions read/write from the same database, demonstrating cross-application data sharing.
 - **Loops & Conditions:** Using `for` loops to iterate through subject lists/student entries, and `switch` / `if-else` blocks for menu systems and grade assignments (A, B, C, D, F).
 - **Functions:** Modular code layout with separate functions for adding, deleting, updating, and computing performance metrics.
-
----
-
-## 📋 10-Minute Presentation Guide
-Use this guide to structure your group's presentation to get full marks from the evaluator.
-
-### ⏱️ Time Allocation Outline (10 Mins Total)
-- **Slide 1-2 (1.5 Mins): Introduction & Concept**
-  - **Speaker 1:** Welcome the evaluator, state names/roll numbers. Introduce the topic: "Student Grade Management System" and explain why grade analysis is crucial for modern schools.
-- **Slide 3-4 (2.5 Mins): Core Architecture & C++ Implementation (CLI)**
-  - **Speaker 2:** Explain the coding concepts (Structs, Arrays, File Handling, loops). Highlight the shared file format allowing terminal and GUI versions to share data.
-- **Slide 5-6 (3 Mins): Live Demonstration (GUI & CLI)**
-  - **Speaker 3:** Start the GUI application. Add a student to show live grade calculations. Filter search results. Open the **Analytics Dashboard** to show visual Charts.
-- **Slide 7-8 (2 Mins): Linux Packaging & Distribution**
-  - **Speaker 4 (or 1):** Explain how the application is packaged as a `.deb` installer for easy distribution on Linux Mint.
-- **Slide 9 (1 Min): Q&A & Conclusion**
-  - Group wraps up and handles any questions from the professor.
-
----
-
-## 🖨️ Hard Copy Submission Tips
-1. Use the code from [terminal/main.cpp](file:///home/ali/LAB-PF-FINAL/terminal/main.cpp) for your hard copy submission, as it is a clean, self-contained single file that easily fits on standard pages and highlights all required Programming Fundamentals concepts.
-2. Replace the placeholder details at the top with your group names and roll numbers before printing.
