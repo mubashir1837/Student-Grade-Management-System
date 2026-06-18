@@ -27,7 +27,7 @@ This release packages the Student Grade Management System (version 1.0.1) for am
 
 ## Checksum
 
-SHA256(studentgrademanager_1.0.1_amd64.deb) = `TBD - rebuild to compute`
+SHA256(studentgrademanager_1.0.1_amd64.deb) = `97c51ec98973685ab3b388791b6835d4abc19c63fa567cbec2d121651a1ac7fc`
 
 ## Installation
 
