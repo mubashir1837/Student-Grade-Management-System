@@ -4,6 +4,7 @@ Section: utils
 Priority: optional
 Architecture: amd64
 Maintainer: Mubashir Ali & Group <mubashirali1837@gmail.com>
+Homepage: https://mubashirali.vercel.app/
 Depends: libc6, libqt6core6t64, libqt6gui6t64, libqt6widgets6t64, libqt6charts6
 Description: Student Grade Management System
  A premium Qt6 C++ application designed for Programming Fundamentals.
