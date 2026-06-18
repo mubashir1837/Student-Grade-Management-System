@@ -26,7 +26,7 @@ Student-Grade-Management-System/
 │   ├── DEBIAN/control   <-- Package metadata (dependencies, version)
 │   └── usr/             <-- Installation paths (executables, desktop file, icon)
 ├── build_deb.sh         <-- Automation script to compile GUI and build .deb package
-├── studentgrademanager_1.0.0_amd64.deb <-- Finished installer for Linux Mint
+├── studentgrademanager_1.0.1_amd64.deb <-- Finished installer for Linux Mint
 └── README.md            <-- Project documentation & Presentation Guide
 ```
 
@@ -52,9 +52,9 @@ g++ -std=c++17 main.cpp -o student_manager
 The GUI application is packageable and ready for direct installation on **Linux Mint**. 
 
 **To Install the `.deb` Package:**
-Double-click `studentgrademanager_1.0.0_amd64.deb` to open it in GDebi Package Installer, or run:
+Double-click `studentgrademanager_1.0.1_amd64.deb` to open it in GDebi Package Installer, or run:
 ```bash
-sudo dpkg -i studentgrademanager_1.0.0_amd64.deb
+sudo dpkg -i studentgrademanager_1.0.1_amd64.deb
 sudo apt-get install -f  # Fixes any missing dependencies
 ```
 Once installed, the application will appear in your Mint application menu under **Education** / **Science** or can be launched by searching for "Student Grade Manager".

@@ -43,6 +43,6 @@ fi
 
 echo "=== 5. Building Debian Package ==="
 cd "$WORKSPACE_DIR"
-dpkg-deb --build packaging studentgrademanager_1.0.0_amd64.deb
+dpkg-deb --build packaging studentgrademanager_1.0.1_amd64.deb
 
-echo "=== SUCCESS! debian package created at: studentgrademanager_1.0.0_amd64.deb ==="
+echo "=== SUCCESS! debian package created at: studentgrademanager_1.0.1_amd64.deb ==="

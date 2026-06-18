@@ -77,13 +77,13 @@ chmod 644 packaging/DEBIAN/control
 chmod 644 packaging/usr/share/applications/studentgrademanager.desktop
 chmod 644 packaging/usr/share/pixmaps/studentgrademanager.png
 
-dpkg-deb --build packaging studentgrademanager_1.0.0_amd64.deb
+dpkg-deb --build packaging studentgrademanager_1.0.1_amd64.deb
 ```
 
 ### Install the generated package
 
 ```bash
-sudo dpkg -i studentgrademanager_1.0.0_amd64.deb
+sudo dpkg -i studentgrademanager_1.0.1_amd64.deb
 sudo apt-get install -f
 ```
 
